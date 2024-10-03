@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+#header {
+  background-color: rgb(229, 227, 227);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 6px gold solid;
+}
+#header div {
+  margin: 40px;
+}
+#name h1 {
+  margin: 0;
+}
+#field {
+  font-weight: normal;
+}
+#info p {
+  margin: 0;
+}
+#body-div {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  flex: 1;
+}
+h3 {
+  margin-bottom: 5px;
+}
+.inner-flex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-bottom: solid;
+}
+.inner-flex p {
+  font-size: 20px;
+  flex: 5;
+}
+#last-inner-flex {
+  border: none;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+li {
+  font-size: 20px;
+  padding: 2px;
+}
+#jobs {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+#keyskills {
+  flex:5;
+  display: flex;
+  justify-content: space-between;
+}
+#education {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+#education h3 {
+  margin: 0;
+  margin-top: 1em;
+}
+#education p {
+  margin: 0;
+  padding: 2px;
+}
+.bottom-section-div {
+  margin-bottom: 1em;
+}
